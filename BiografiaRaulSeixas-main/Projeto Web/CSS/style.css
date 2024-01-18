@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Fredoka:wght@500&display=swap');
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    font-family: 'Bitter', serif;
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 40px;
+}
+
+.bio-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bio-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio-image img {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 90px;
+    font-family: 'Bitter', serif;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.bio-text {
+    margin-left: 20px;
+    margin-top: 90px;
+    font-family: 'Bitter', serif;
+    font-family: 'Fredoka', sans-serif;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+    font-family: 'Bitter', serif;
+    font-family: 'Fredoka', sans-serif;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 9px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.image-container {
+    float: left;
+    margin-right: 110px;
+    flex-grow: 1;
+}
+
+.table-container {
+    flex-grow: 1;
+}
+
+p {
+    font-family: 'Bitter', serif;
+    font-family: 'Fredoka', sans-serif;
+}
