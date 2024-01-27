@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <main>
+        
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/pages/cadastroDeCliente.html">Cadastro de Clientes</a>
+            <a href="/pages/login.html">Login</a>
+            <a href="/pages/tabelaBrasileirao2023.html">Tabela Brasileirão</a>
+        </nav>
+        <hr>  
+        <h2>Login</h2>  
+        
+        <form action="">
+            <div>
+            <label for="usuario">Usuário</label>
+            <input type="email" name="" id="usuario">
+            <button type="button" id="botaoSenha" onclick="togglePass()">Ver</button>
+        </div>
+        <div>
+            <label for="senha1">Senha</label>
+            <input type="password" name="" id="senha1" oninput="conferirSenha()">
+            <label for="senha2">Confirme a senha</label>
+            <input type="password" name="" id="senha2" oninput="conferirSenha()">
+        </div>
+        <h3>Gostos Musicais</h3>
+        <div>
+            <input type="checkbox" name="" id=""> MPB
+            <input type="checkbox" name="" id=""> Rock
+            <input type="checkbox" name="" id=""> Reggae
+            <input type="checkbox" name="" id="" checked> Rap
+            <input type="checkbox" name="" id=""> Funk
+        </div>
+        </form>
+              
+        <hr>
+        <button type="button"><a href="/pages/login.html">Cadastrar Login</a></button>
+    </main>
+    <script src="/assets/js/scripts.js"></script>
+
+    
+</body>
+</html>

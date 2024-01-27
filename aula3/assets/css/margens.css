@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+.div2, .div1 {
+    border: 1px solid black;
+}
+.div1 {
+    width: 200px;
+    height: 150px;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    
+}
+.div2 {
+    width: 200px;
+    height: 150px;
+    margin-top: 2px;
+    background-color: beige;
+    border-radius: 7px;
+}
+
+#divExterna .div3 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: blue;
+
+}
+#divExterna .div4 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: orange;
+
+}
+#divExterna .div5 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: green;
+
+}
+#divExterna .div6 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    margin: 3px;
+    background-color: red;
+
+}
+.pTeste {
+    font-size: 18pt;
+    color:brown;
+    font-weight: 900;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btnbutton {
+    padding: 7px 10px;
+    margin: 5px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.btnbutton:hover {
+    background-color: azure;
+    color: black;
+
+}
